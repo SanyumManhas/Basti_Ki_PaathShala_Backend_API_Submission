@@ -13,7 +13,7 @@ The client receives list of Users as a JSON object.
 
 ## Tech Stack
 
-**Server:** Node, Express, JWT (Authentication).
+**Server:** Node, Express, MongoDB, JWT (Authentication).
 
 
 
