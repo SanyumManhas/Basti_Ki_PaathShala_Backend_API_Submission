@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGO_URI).then(()=>[
 const userrouter = require('./Routes/userRoutes');
 
 app.get("/", async (req,res)=>{
-    res.send("Server Started at 9000");
+    res.send("Server Started");
 });
 
 app.use(userrouter);
