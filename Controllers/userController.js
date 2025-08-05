@@ -11,7 +11,7 @@ exports.registerUser = async(req,res)=>{
             username:req.body.username,
             email:req.body.email,
             password:hash,
-            userType:req.body.ut
+            userType:req.body.userType
         });
 
         const result = await newuser.save();
